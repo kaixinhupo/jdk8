@@ -14,6 +14,7 @@ RUN mkdir /usr/local/jdk8 \
     && rm /tmp/jdk8.tar.gz
 
 ENV JAVA_HOME /usr/local/jdk8
+ENV JRE_HOME /usr/local/jdk8/jre
 ENV PATH $JAVA_HOME/bin:$PATH
 
 ENV TZ=Asia/Shanghai
